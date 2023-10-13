@@ -9,7 +9,7 @@ import { Container } from "react-bootstrap";
 
 export default function TelaCadastroCliente(props) {
     const [exibirformulario, setExibirFormulario] = useState(true);
-    const [listaClientes, setListaClientes] = useState([]);
+    //const [listaClientes, setListaClientes] = useState([]);
     const [mostrarMensagem, setMostrarMensagem] = useState(false);
     const [mensagem,setMensagem] = useState("");
     const [tipoMensagem,setTipoMensagem] = useState("");
